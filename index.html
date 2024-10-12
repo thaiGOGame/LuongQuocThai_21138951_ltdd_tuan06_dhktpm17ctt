@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhiệm vụ JavaScript ES6</title>
+    <style>
+        /* Căn giữa nội dung trong body */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: linear-gradient(135deg, #f6d365 25%, #fda085 50%, #f093fb 75%, #6fa3ef);
+            background-size: cover;
+        }
+
+        /* Hiệu ứng lấp lánh nhiều màu cho thẻ <p> */
+        @keyframes sparkle {
+            0% { color: red; }
+            25% { color: orange; }
+            50% { color: yellow; }
+            75% { color: green; }
+            100% { color: blue; }
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: bold;
+            animation: sparkle 2s infinite;
+        }
+
+        /* Căn giữa nội dung bên trong */
+        .content {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>JavaScript ES6 Tasks</h1>
+        <p>Mở bảng điều khiển để xem kết quả của mã JavaScript.</p>
+    </div>
+
+    <!-- Liên kết đến tệp JavaScript bên ngoài -->
+    <script src="./main.js"></script>
+</body>
+</html>
